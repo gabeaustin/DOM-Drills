@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
     div.appendChild(h1);
     // append the div to the body
     document.body.appendChild(div); // it will not show up w/o this line
-    // let h1ClassName = div.className = "h1";
+    let h1ClassName = h1.className = "h1";
 
     /* Number 5 */
     // create a h2 element
@@ -27,28 +27,32 @@ document.addEventListener("DOMContentLoaded", function() {
     // append it to the same div the h1 one is
     div.appendChild(h2);
     // give a class name
-    // let h2ClassName = div.className = "h2";
+    let h2ClassName = h2.className = "h2";
 
     /* Numbers 6 & 7 */
     let h3 = document.createElement("h3");
     let h3Text = document.createTextNode("This is an h3.");
     h3.appendChild(h3Text);
     div.appendChild(h3);
+    let h3ClassName = h3.className = "h3";
 
     let h4 = document.createElement("h4");
     let h4Text = document.createTextNode("This is an h4.");
     h4.appendChild(h4Text);
     div.appendChild(h4);
+    let h4ClassName = h4.className = "h4";
 
     let h5 = document.createElement("h5");
     let h5Text = document.createTextNode("This is an h5.");
     h5.appendChild(h5Text);
     div.appendChild(h5);
+    let h5ClassName = h5.className = "h5";
 
     let h6 = document.createElement("h6");
     let h6Text = document.createTextNode("This is an h6.");
     h6.appendChild(h6Text);
     div.appendChild(h6);
+    let h6ClassName = h6.className = "h6";
     
     
 
