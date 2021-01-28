@@ -21,8 +21,9 @@ document.addEventListener("DOMContentLoaded", function() {
     // create a h2 element
     let h2 = document.createElement("h2");
     // give it the text "This is an h2"
-    let h2Text = document.createTextNode("This is an h2");
-    div.appendChild(h2Text);
+    let h2Text = document.createTextNode("This is an h2.");
+    h2.appendChild(h2Text);
+    // div.appendChild(h2Text);
     // append it to the same div the h1 one is
     div.appendChild(h2);
     // give a class name
@@ -30,23 +31,23 @@ document.addEventListener("DOMContentLoaded", function() {
 
     /* Numbers 6 & 7 */
     let h3 = document.createElement("h3");
-    let h3Text = document.createTextNode("This is an h3");
-    div.appendChild(h3Text);
+    let h3Text = document.createTextNode("This is an h3.");
+    h3.appendChild(h3Text);
     div.appendChild(h3);
 
     let h4 = document.createElement("h4");
-    let h4Text = document.createTextNode("This is an h4");
-    div.appendChild(h4Text);
+    let h4Text = document.createTextNode("This is an h4.");
+    h4.appendChild(h4Text);
     div.appendChild(h4);
 
     let h5 = document.createElement("h5");
-    let h5Text = document.createTextNode("This is an h5");
-    div.appendChild(h5Text);
+    let h5Text = document.createTextNode("This is an h5.");
+    h5.appendChild(h5Text);
     div.appendChild(h5);
 
     let h6 = document.createElement("h6");
-    let h6Text = document.createTextNode("This is an h6");
-    div.appendChild(h6Text);
+    let h6Text = document.createTextNode("This is an h6.");
+    h6.appendChild(h6Text);
     div.appendChild(h6);
     
     
