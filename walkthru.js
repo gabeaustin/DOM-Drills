@@ -40,10 +40,21 @@ document.addEventListener("DOMContentLoaded", function() {
     container.appendChild(h5);
     container.appendChild(h6);
 
-    for (let i = 0; i < colorsArray.length; i++) {
-        console.log(colorsArray[i]);
-        // console.log("text " += colorsArray[i] + "<br>");
-    }
-    
+    //document.addEventListener("dblclick", function() {
+        
+        //for (let i = 0; i < colorsArray.length; i++) {
+        //    console.log(colorsArray[i]);
+        //    // console.log("text " += colorsArray[i] + "<br>");
+        //    } 
+    //}
+
+    document.addEventListener("dblclick", function() {
+        let rgb = [];
+        for(let i = 0; i < 3; i++)
+            rgb.push(Math.floor(Math.random() * 255));
+            container.style.backgroundColor = 'rgb('+ rgb.join(',') +')';
+            console.log(rgb);
+    })
+
     document.body.appendChild(container);
 })
