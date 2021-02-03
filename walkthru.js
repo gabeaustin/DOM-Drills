@@ -39,17 +39,42 @@ document.addEventListener("DOMContentLoaded", function() {
     container.appendChild(h5);
     container.appendChild(h6);
 
+    document.body.appendChild(container);
+
     h1.addEventListener("dblclick", function() {
         let colorsArray = ["#ff0018", "#ffa52c", "#ffff41", "#008018", "#0000f9", "#86007d", "#3c280d", "#cfb53b"];
-
         let randomNum = Math.floor(Math.random() * colorsArray.length);
         h1.style.color = colorsArray[randomNum];
+    })
+
+    h2.addEventListener("dblclick", function() {
+        let colorsArray = ["#ff0018", "#ffa52c", "#ffff41", "#008018", "#0000f9", "#86007d", "#3c280d", "#cfb53b"];
+        let randomNum = Math.floor(Math.random() * colorsArray.length);
         h2.style.color = colorsArray[randomNum];
+    })
+
+    h3.addEventListener("dblclick", function() {
+        let colorsArray = ["#ff0018", "#ffa52c", "#ffff41", "#008018", "#0000f9", "#86007d", "#3c280d", "#cfb53b"];
+        let randomNum = Math.floor(Math.random() * colorsArray.length);
         h3.style.color = colorsArray[randomNum];
+    })
+
+    h4.addEventListener("dblclick", function() {
+        let colorsArray = ["#ff0018", "#ffa52c", "#ffff41", "#008018", "#0000f9", "#86007d", "#3c280d", "#cfb53b"];
+        let randomNum = Math.floor(Math.random() * colorsArray.length);
         h4.style.color = colorsArray[randomNum];
+    })
+
+    h5.addEventListener("dblclick", function() {
+        let colorsArray = ["#ff0018", "#ffa52c", "#ffff41", "#008018", "#0000f9", "#86007d", "#3c280d", "#cfb53b"];
+        let randomNum = Math.floor(Math.random() * colorsArray.length);
         h5.style.color = colorsArray[randomNum];
+    })
+
+    h6.addEventListener("dblclick", function() {
+        let colorsArray = ["#ff0018", "#ffa52c", "#ffff41", "#008018", "#0000f9", "#86007d", "#3c280d", "#cfb53b"];
+        let randomNum = Math.floor(Math.random() * colorsArray.length);
         h6.style.color = colorsArray[randomNum];
     })
 
-    document.body.appendChild(container);
 })
